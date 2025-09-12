@@ -109,56 +109,6 @@ After setting environment variables, redeploy your application:
 vercel --prod
 ```
 
-## 🎯 Demo Script for Judges
-
-### Demo Flow (5-7 minutes)
-
-#### 1. **Voice-Enabled Chat** (2 minutes)
-- Navigate to **Chat** page
-- Select **Hindi** language from dropdown
-- Click **🎤 microphone button**
-- Say: *"मेरे टमाटर के पौधों में पीले पत्ते आ रहे हैं, क्या करूं?"*
-- Show AI response with farming advice, fertilizer recommendations, and pest alerts
-- Click **🔊 TTS button** to demonstrate voice output in Hindi
-
-#### 2. **Pest Detection** (1.5 minutes)
-- Navigate to **Pest Detection** page
-- Click **"Take Photo"** or upload a sample image
-- Show real-time analysis with:
-  - Detected pest/disease labels
-  - Confidence scores with color coding
-  - Bounding boxes on image
-  - Actionable treatment suggestions
-
-#### 3. **Weather Alerts** (1 minute)
-- Navigate to **Weather** page
-- Enter coordinates: `19.0760, 72.8777` (Mumbai)
-- Show weather data with:
-  - Current temperature and conditions
-  - **Highlighted rain probability card**
-  - Weather alerts with severity-based color coding
-  - Farming-specific recommendations
-
-#### 4. **Market Price Lookup** (1 minute)
-- Navigate to **Market** page (if implemented)
-- Search for "wheat" or "tomato"
-- Show current mandi prices from different locations
-- Display price trends and market insights
-
-#### 5. **Feedback Submission** (1 minute)
-- Navigate to **Feedback** page
-- Select feedback type: "Feature Request"
-- Enter message: "Great app! Please add more regional languages"
-- Submit and show confirmation
-
-### Key Demo Points to Highlight
-
-- **Multilingual Support**: Voice input/output in Hindi, English, Marathi
-- **AI-Powered**: Real-time pest detection and farming advice
-- **Mobile-First**: Responsive design works on all devices
-- **Offline Capable**: Works with mock data when APIs are unavailable
-- **Accessibility**: Voice input/output for farmers with low literacy
-
 ## 📁 Project Structure
 
 ```
@@ -210,10 +160,6 @@ vercel --prod
 3. Commit your changes: `git commit -m 'Add amazing feature'`
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
